@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:grey;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows: 50px 50px 50px;
+}
+
+
+.box{
+    padding: 10px;
+    
+}
+
+.box1{
+    grid-row: span 3;
+}
+
+.box3{
+    grid-row: 2/3;
+}
+
+.bg-l-yellow{
+    background-color:  hsl(31, 66%, 93%)
+}
+
+.bg-d-yellow{
+    background-color: hsl(39, 100%, 71%);
+}
+
+.bg-l-purple{
+    background-color: hsl(254, 88%, 90%)
+}
+
+.bg-d-purple{
+    background-color:hsl(256, 67%, 59%)
+}
